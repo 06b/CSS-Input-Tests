@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS Input Tests: Default</title>
+    <style>
+        body {
+            background-image: url(data:image/gif;base64,R0lGODdhKAAoAPIFAOjo6PHx8e/v7+zs7PT09P///wAAAAAAACwAAAAAKAAoAAADw1hKWrztlRArvAVYtyXFUthoYNd8XIkBROu+8CvEdEymuKigej6aqgnQp7j1eryhhFVrEmbOmlF5oq6suGRwifV0R9EaNAybbqvnazr7LbaF6yU5Np63zER2/LffvfFHaHk9AAGGAoYBiIeJiwEDjZGMkwGAQ1qDfJkYmIFufXCbOEx2LXV2lkGdQ6l5q0GtSH+lLqdzsRuvebicf2+6hLSmwgS8eqJcoMAbxl6gpKW2ZM2CnqO/vsp/ANzd3t/g4eLeCQA7);
+        }
+
+        .l-grid{
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        @supports (display: grid) {
+            .l-grid {
+                display: grid;
+                grid-gap: 1rem;
+                grid-template-columns: repeat(3, minmax(200px,1fr));
+            }
+        }
+
+        .l-grid__container {
+            padding: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Input Tests: Default</h1>
+    <div class="l-grid">
+        <div class="l-grid__container">
+            <h2>Text</h2>
+            <input type="text">
+        </div>
+        <div class="l-grid__container">
+            <h2>Email</h2>
+            <input type="email">
+        </div>
+        <div class="l-grid__container">
+            <h2>Tel</h2>
+            <input type="tel">
+        </div>
+        <div class="l-grid__container">
+            <h2>Number</h2>
+            <input type="number">
+        </div>
+        <div class="l-grid__container">
+            <h2>Password</h2>
+            <input type="password">
+        </div>
+        <div class="l-grid__container">
+            <h2>Date</h2>
+            <input type="date">
+        </div>
+        <div class="l-grid__container">
+            <h2>Date &amp; Time</h2>
+            <input type="datetime">
+        </div>
+        <div class="l-grid__container">
+            <h2>Date &amp; Time - local</h2>
+            <input type="datetime-local">
+        </div>
+        <div class="l-grid__container">
+            <h2>Month</h2>
+            <input type="month">
+        </div>
+        <div class="l-grid__container">
+            <h2>Week</h2>
+            <input type="week">
+        </div>
+        <div class="l-grid__container">
+            <h2>Search</h2>
+            <input type="search">
+        </div>
+        <div class="l-grid__container">
+            <h2>URL</h2>
+            <input type="url">
+        </div>
+    </div>
+</body>
+
+</html>
