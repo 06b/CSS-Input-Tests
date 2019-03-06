@@ -1,4 +1,4 @@
-# CSS Input Tests: Default
+# CSS Input Tests: Background-color: transparent | Type Selector
 
 **Operating System:**
 Windows 10 Pro
