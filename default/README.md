@@ -1,9 +1,10 @@
 # CSS Input Tests: Default
 
-Operating System:
-Windows 10 Pro | Version: 1809 | OS build: 17763.316
-High Contrast Mode: Off
- - HCM Theme: N/A
+**Operating System:**
+Windows 10 Pro
+ - *Version:* 1809
+ - *OS build:* 17763.316
+ - *High Contrast Mode:* Off
 
 Browser:
 Microsoft Edge 44.17763.1.0, Microsoft EdgeHTML 18.17763
@@ -38,9 +39,12 @@ User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Fi
 
 ![Firefox ESR Snapshot](/default/snapshots/FirefoxESR.png)
 
-Windows 10 Pro | Version: 1809 | OS build: 17763.316
-High Contrast Mode: On
- - HCM Theme: High Contrast Black
+**Operating System:**
+Windows 10 Pro
+ - *Version:* 1809
+ - *OS build:* 17763.316
+ - *High Contrast Mode:* On
+ - *HCM Theme:* High Contrast Black
 
 Browser:
 Microsoft Edge 44.17763.1.0, Microsoft EdgeHTML 18.17763
